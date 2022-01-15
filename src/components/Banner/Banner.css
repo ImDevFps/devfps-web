@@ -1,0 +1,181 @@
+.banner-container {
+  width: 100vw;
+  height: 80vh;
+  background-color: #f3f0e3;
+}
+
+.contain {
+  max-width: 90% !important;
+}
+.text {
+  margin-top: 5vh !important;
+  color: black !important;
+  font-weight: bold;
+}
+.line {
+  border: 1px solid black;
+  width: 20px;
+  display: inline-block;
+  opacity: 0.7;
+  margin: 5px;
+}
+.text-discrip {
+  display: block;
+  font-size: calc(3.5em + 1.25vw);
+  font-weight: 900;
+}
+
+.details-text {
+  position: relative;
+  z-index: 1;
+}
+.circle {
+  display: inline-block;
+  position: relative;
+  right: 20px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(1, 121, 111);
+  border-radius: 50%;
+  z-index: 0;
+}
+.content {
+  margin: 2vh 0;
+  width: max-content;
+}
+.photo-circle {
+  position: relative;
+  background-color: rgb(1, 121, 111);
+  top: 10vh;
+  left: 20%;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.my-photo img {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  top: -23vh;
+  left: 5vw;
+  height: 300px;
+}
+
+.contact-me {
+  display: block;
+  position: relative;
+  width: 280px;
+  height: 280px;
+  background-color: rgb(247, 108, 53);
+  border-radius: 50%;
+  top: -30%;
+  font-size: 18px;
+  color: rgb(218, 218, 218);
+  z-index: 2;
+}
+.contact-text {
+  position: relative;
+  top: 25%;
+  left: 35%;
+}
+.mail-icon {
+  font-size: 4rem;
+  position: relative;
+  top: 50%;
+  left: 5%;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #eb9175cc;
+}
+
+@media screen and (min-width: 1780px) {
+  .banner-container {
+    height: 70vh;
+  }
+  .photo-circle {
+    width: 320px;
+    height: 320px;
+  }
+  .my-photo img {
+    width: 350px;
+    height: 350px;
+    top: -20vh;
+    left: 0;
+  }
+  .contact-me {
+    width: 320px;
+    height: 320px;
+    top: -26vh;
+    z-index: 2;
+  }
+  .contact-text {
+    font-size: 2rem;
+    top: 30%;
+    left: 28%;
+  }
+
+  .mail-icon {
+    top: 55%;
+    left: -8%;
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 815px) {
+  .banner-container {
+    height: 60vw;
+  }
+
+  .photo-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .my-photo img {
+    width: 250px;
+    height: 250px;
+    top: -13vw;
+    left: 0;
+  }
+
+  .contact-me {
+    width: 220px;
+    height: 220px;
+    top: -21vw;
+    z-index: 2;
+  }
+
+  .contact-text {
+    top: 20%;
+    left: 30%;
+  }
+
+  .mail-icon {
+    top: 47%;
+    left: -5%;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .my-photo,
+  .contact-me {
+    display: none;
+  }
+}
+@media screen and (min-height: 750px) {
+  .banner-container {
+    height: 60vh;
+  }
+
+  .my-photo img {
+    top: -15vw;
+    left: 25px;
+  }
+
+  .contact-me {
+    top: -21vw;
+    z-index: 2;
+  }
+}

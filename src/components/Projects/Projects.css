@@ -1,0 +1,32 @@
+.projects-card {
+  flex-basis: 24%;
+}
+
+/* img:hover {
+  opacity: 0.8;
+} */
+.card-title {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.projects-card a {
+  color: #f76c35 !important;
+  text-decoration: none;
+}
+
+.projects-card a:hover {
+  color: #01796f !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-card {
+    flex-basis: 32%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .projects-card {
+    flex-basis: 45%;
+  }
+}

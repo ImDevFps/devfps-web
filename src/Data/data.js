@@ -1,0 +1,60 @@
+const Projects_Data = [
+  {
+    id: 1,
+    title: "DevFps-Movies",
+    img: "./devfps-movies.png",
+    body: "react movie web application like neflix with less features.this app built with firebase auth, firestore & MUI material.you can watch serials animes and movies and more ...",
+    url: "https://devfps-movies.netlify.app",
+    source: "",
+  },
+  {
+    id: 2,
+    title: "DevFps-Music",
+    img: "./devfps-music.png",
+    body: "fully react web application(PWA) like spotify!You can listen to music and make a liked list for later...",
+    url: "https://devfps-music.netlify.app",
+    source: "",
+  },
+  {
+    id: 3,
+    title: "DevFps-Currency",
+    img: "./devfps-currency.png",
+    body: "react crypto currency website you can reach all crypto pricing plus+ access to blogs and more...",
+    url: "https://devfps-currency.netlify.app/",
+    source: "",
+  },
+  {
+    id: 4,
+    title: "DevFps-Weather",
+    img: "./devfps-weather.png",
+    body: "react weather website you can explore for cities and find out the temperature",
+    url: "",
+    source: "",
+  },
+  {
+    id: 5,
+    title: "DevFps-Messenger",
+    img: "./devfps-messenger.png",
+    body: "react messenger built with chatengine.io you can simplify chat with eachother make groups add persons and more...",
+    url: "",
+    source: "",
+  },
+  {
+    id: 6,
+    title: "DevFps-Calculator",
+    img: "./devfps-calc.png",
+    body: "react calculator ios ui,ux designed with simple js ...",
+    url: "https://calculator-devfps.herokuapp.com/",
+    source: "",
+  },
+  {
+    id: 7,
+    title: "DevFps-Shop",
+    img: "./devfps-store.png",
+    body: 'react web application(PWA) fully responsive E-Commerce built with react, firebase & stripe."first Project learned and deployed" ',
+    url: "https://crwn-react-canli.herokuapp.com/",
+    source: "",
+  },
+];
+
+export default Projects_Data;

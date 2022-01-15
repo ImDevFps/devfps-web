@@ -1,0 +1,199 @@
+.main-container {
+  margin-top: 10vh;
+}
+.four-circle {
+  background-color: rgb(229, 237, 238);
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+.circle-numbers {
+  position: relative;
+  top: 25%;
+  display: block;
+  text-align: center;
+  color: rgb(247, 108, 53);
+  font-size: 24px;
+  font-weight: 900;
+}
+.mt-circle {
+  margin-top: 7vh;
+}
+
+.circle-text {
+  margin-top: 27%;
+  display: block;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  text-align: center;
+  color: rgb(88, 88, 88);
+  text-transform: capitalize;
+}
+.about-container {
+  margin-top: 10vh;
+}
+
+.portfolio {
+  position: relative;
+  top: 0;
+  right: 12%;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  background-color: rgb(247, 108, 53);
+  z-index: 2;
+  color: rgb(231, 231, 231);
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-text {
+  font-size: 1.3vw;
+  text-transform: capitalize;
+}
+.portfolio-icon {
+  display: block;
+  text-align: center;
+  font-size: 2vw;
+}
+.last-projects {
+  position: relative;
+  top: -13vh;
+  width: 22vw;
+  height: 22vw;
+  border-radius: 50%;
+  background-color: rgb(1, 121, 111);
+  color: rgb(231, 231, 231);
+  margin-left: 10%;
+}
+.last-projects-text {
+  position: relative;
+  top: 40%;
+  display: block;
+  margin-left: 45%;
+  text-transform: capitalize;
+  font-size: 1.7vw;
+}
+.last-projects-icon {
+  position: relative;
+  top: 45%;
+  display: block;
+  margin-left: 50%;
+  font-size: 2vw;
+}
+.last-projects-icon a {
+  color: white !important;
+}
+.last-projects-icon a:hover {
+  color: rgb(247, 108, 53) !important;
+  font-size: 22px !important;
+}
+.about-me {
+  position: relative;
+  top: 0;
+  text-transform: capitalize;
+  font-size: 3vw;
+  font-weight: 900;
+  width: 350px;
+}
+
+.about-me-explain {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgb(141, 141, 141);
+}
+
+.about-me-contact {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.about-me-me {
+  display: inline;
+  color: white;
+}
+
+.about-me-me span {
+  position: relative;
+  background-color: rgb(247, 108, 53);
+  display: inline-block;
+  right: 20px;
+  top: 12px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.flex-wrap {
+  gap: 10px;
+}
+
+@media screen and (max-width: 815px) {
+  .four-circle {
+    width: 16vw;
+    height: 16vw;
+  }
+  .circle-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-container {
+    margin-top: 5vh;
+  }
+  .four-circle {
+    width: 30vw;
+    height: 30vw;
+  }
+  .about-container {
+    margin-top: 5vh;
+  }
+  .mobile-height-portfolio {
+    height: 50vw;
+  }
+  .portfolio {
+    height: 30vw;
+    width: 30vw;
+  }
+  .portfolio-text {
+    font-size: 3vw;
+  }
+  .portfolio-icon {
+    font-size: 4vw;
+  }
+  .last-projects {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .last-projects-text,
+  .last-projects-icon {
+    margin-left: 50%;
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .circle-numbers {
+    top: 30%;
+    font-size: 40px;
+  }
+  .circle-text {
+    margin-top: 30%;
+    font-size: 15px;
+  }
+
+  .portfolio {
+    top: 25%;
+  }
+  .about-container {
+    margin-top: 1vh;
+  }
+  .about-me {
+    margin-top: 10vh;
+  }
+}
